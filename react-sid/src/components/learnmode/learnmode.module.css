@@ -1,21 +1,44 @@
 .LearnMode {
-    padding: 20px;
+    background-color: #FFF;
+    padding: 2rem 3rem;
+    margin: 1rem;
+    display: flex;
+    height: 23rem;
+    width: 60%;
+    font-weight: 300;
+    color: #333;
+    flex-direction: column;
+    box-shadow: 0 0 1px 2px #EEE;
   }
   
   .LearnModePrompt {
-    margin: 0 0 16px;
+    margin-top: 6rem;
+    font-weight: 300;
+    flex: 1;
+  }
+
+  .LearnModeForm {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
   }
   
   .LearnModeInput {
     border-radius: 2px;
-    border: 2px solid #d9dfe2;
+    border: 2px solid #666;
+    border-top: none;
+    border-left: none;
+    border-right: none;
     display: inline-block;
-    font-size: 15px;
     line-height: 1.35;
-    margin-right: 5px;
+    margin-right: 2rem;
     outline: 0 none;
-    padding: 8px;
+    padding: 8px 0;
     resize: none;
+    flex: 1;
+    font-size: 1.8rem;
+    font-weight: 300;
   }
   
   .LearnModeSubmit {
@@ -31,5 +54,32 @@
     outline: 0 none;
     padding: 0 20px;
     text-align: center;
+    margin-top: 2rem;
   }
-  
+
+  .LearnModeSuccessHeader {
+    color:#23b26d;
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 1.5rem;
+  }
+
+  .LearnModeFailureHeader {
+    color:#ff725b;
+    border-bottom: 1px solid #DEDEDE;
+    padding-bottom: 1.5rem;
+  }
+
+  .LearnModeExplainHeader {
+    font-weight: 600; 
+    font-size: 0.8rem;
+    color: #AAA;
+    text-transform: capitalize;
+  }
+
+  .LearnModeExplainTextCorrect {
+    color: #23b26d;
+  }
+
+  .LearnModeExplainTextWrong {
+    color: #ff725b;
+  }
