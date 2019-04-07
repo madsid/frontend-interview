@@ -1,0 +1,35 @@
+.LearnMode {
+    padding: 20px;
+  }
+  
+  .LearnModePrompt {
+    margin: 0 0 16px;
+  }
+  
+  .LearnModeInput {
+    border-radius: 2px;
+    border: 2px solid #d9dfe2;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 1.35;
+    margin-right: 5px;
+    outline: 0 none;
+    padding: 8px;
+    resize: none;
+  }
+  
+  .LearnModeSubmit {
+    background: #1f6fd9;
+    border-radius: 2px;
+    border: 1px solid #1d66c8;
+    color: #fff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 2.14;
+    outline: 0 none;
+    padding: 0 20px;
+    text-align: center;
+  }
+  
